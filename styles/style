@@ -1,0 +1,65 @@
+@import "bootstrap.less";
+#reset > .global-reset();
+
+body {
+	background-color: #282828;
+	text-align: center;
+}
+#container {
+	position: relative;
+	width: 1010px;
+	height: 360px;
+	margin: auto;
+	background-color: #ffffff;
+	margin-top: 100px;
+}
+#main {
+	position: absolute;
+	top: 80px;
+	left: 33px;
+	text-align: left;
+	background-color: #3f3f3f;
+	width: 950px;
+	height: 60px;
+	font-family: Helvetica Neue, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	padding-top: 0px;
+	margin: 0px;
+	border-top: 1px solid #3f3f3f;
+	border-top-left-radius: 4px 4px;
+	border-top-right-radius: 4px 4px;
+}
+#main > .reg {
+	display: inline-block;
+	padding: 20px 20px 20px 20px;
+	margin: 0px;
+	border-right: 1px solid #2d2d2d;
+	border-left: 1px solid #4d4d4d;
+	border-top: 1px solid #585858;
+	border-bottom: 10px solid #3b3b3b;
+	color: #3a3a3a;
+	float: left;
+}
+#home {
+	border-top-left-radius: 4px 4px;
+	display: inline-block;
+	padding: 20px 20px 20px 20px;
+	margin: 0px;
+	border-right: 1px solid #2d2d2d;
+	border-top: 1px solid #585858;
+	border-bottom: 10px solid #3b3b3b;
+	color: #3a3a3a;
+	float: left;
+}
+#by {
+	border-right: 0px solid black;
+	display: inline-block;
+	padding: 20px 20px 20px 20px;
+	margin: 0px;
+	border-left: 1px solid #4d4d4d;
+	border-top: 1px solid #585858;
+	border-bottom: 10px solid #464646;
+	color: #dddddd;
+	float: left;
+}
